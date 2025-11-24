@@ -6,7 +6,6 @@ public class AverageArray {
         for (int num : numbers) {
             sum += num;
         }
-
         double average = (double) sum / numbers.length;
         System.out.println("Average value: " + average);
     }

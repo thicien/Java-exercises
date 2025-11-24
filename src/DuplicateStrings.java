@@ -11,7 +11,6 @@ public class DuplicateStrings {
                 duplicates.add(word);
             }
         }
-
         System.out.println("Duplicate values: " + duplicates);
     }
 }

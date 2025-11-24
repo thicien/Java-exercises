@@ -10,7 +10,6 @@ public class SelectionSort {
                     minIndex = j;
                 }
             }
-
             int temp = numbers[minIndex];
             numbers[minIndex] = numbers[i];
             numbers[i] = temp;
